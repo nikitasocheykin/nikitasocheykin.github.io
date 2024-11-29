@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Dananz — Interior Design</title>
+</head>
+<body>
+    <header class="header wrapper">
+        <img src="/img/logo.svg" alt="Dananz" class="header__logo logo">
+        <nav class="header__nav nav">
+            <ul class="header__nav__list nav__list" id="nav__list">
+                <li class="nav__list__elem"><a class="nav__list__link" href="">Home</a></li>
+                <li class="nav__list__elem"><a class="nav__list__link" href="">About Us</a></li>
+                <li class="nav__list__elem"><a class="nav__list__link" href="">Services</a></li>
+                <li class="nav__list__elem"><a class="nav__list__link" href="">Our Teams</a></li>
+                <li class="nav__list__elem"><a class="btn btn--primary nav__btn" href="">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header__menu-btn menu-btn" id="menu-btn" onclick="menu()"></div>
+    </header>
+    <section class="block main wrapper">
+        <div class="main__texts">
+            <h1 class="main__headline">Portofolio</h1>
+            <p class="main__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <img src="/img/image1.jpg" alt="Cozy room" class="main__image">
+    </section>
+    <section class="block portfolio wrapper">
+        <div class="breadchumb">
+            <h6 class="breadchumb__text">Portfolio</h6>
+            <hr class="breadchumb__line">
+        </div>
+        <div class="portfolio-card">
+            <div class="portfolio-card_img-container">
+                <img src="/img/image5.jpg" alt="Minimalist Room" class="portfolio-card__img">
+                <div class="creator creator--positioned">
+                    <img src="/img/creator-portrait.png" alt="Arga Danaan" class="creator__img">
+                    <div class="creator-texts">
+                        <h5 class="creator-texts__author">Arga Danaan</h5>
+                        <p class="creator-texts__desc">CEO of Dananz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card__text">
+                <h3 class="portfolio-card__headline">Minimalist Room</h3>
+                <p class="portfolio-card__desc">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+                <a href="" class="portfolio-card__button btn btn--primary">See More</a>
+            </div>
+        </div>
+        <div class="portfolio-card portfolio-card--reversed">
+            <div class="portfolio-card_img-container">
+                <img src="/img/image5.jpg" alt="Vintage Room" class="portfolio-card__img">
+                <div class="creator creator--positioned">
+                    <img src="/img/creator-portrait.png" alt="Arga Danaan" class="creator__img">
+                    <div class="creator-texts">
+                        <h5 class="creator-texts__author">Arga Danaan</h5>
+                        <p class="creator-texts__desc">CEO of Dananz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card__text">
+                <h3 class="portfolio-card__headline">Vintage Room</h3>
+                <p class="portfolio-card__desc">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+                <a href="" class="portfolio-card__button btn btn--primary">See More</a>
+            </div>
+        </div>
+        <div class="portfolio-card">
+            <div class="portfolio-card_img-container">
+                <img src="/img/image4.jpg" alt="Modern Room" class="portfolio-card__img">
+                <div class="creator creator--positioned">
+                    <img src="/img/creator-portrait.png" alt="Arga Danaan" class="creator__img">
+                    <div class="creator-texts">
+                        <h5 class="creator-texts__author">Arga Danaan</h5>
+                        <p class="creator-texts__desc">CEO of Dananz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card__text">
+                <h3 class="portfolio-card__headline">Modern Room</h3>
+                <p class="portfolio-card__desc">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+                <a href="" class="portfolio-card__button btn btn--primary">See More</a>
+            </div>
+        </div>
+        <div class="portfolio-card portfolio-card--reversed">
+            <div class="portfolio-card_img-container">
+                <img src="/img/image5.jpg" alt="transitional Room" class="portfolio-card__img">
+                <div class="creator creator--positioned">
+                    <img src="/img/creator-portrait.png" alt="Arga Danaan" class="creator__img">
+                    <div class="creator-texts">
+                        <h5 class="creator-texts__author">Arga Danaan</h5>
+                        <p class="creator-texts__desc">CEO of Dananz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card__text">
+                <h3 class="portfolio-card__headline">transitional Room</h3>
+                <p class="portfolio-card__desc">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+                <a href="" class="portfolio-card__button btn btn--primary">See More</a>
+            </div>
+        </div>
+    </section>
+    <section class="block service wrapper">
+        <div class="breadchumb">
+            <h6 class="breadchumb__text">Service</h6>
+            <hr class="breadchumb__line">
+        </div>
+        <div class="service__texts">
+            <h2 class="service__texts__headline">Why Choose Us</h2>
+            <p class="service__texts__desc">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+        </div>
+        <div class="service__cards">
+            <div class="info-card">
+                <div class="info-card__icon"></div>
+                <h3 class="info-card__headline">High Quality</h3>
+                <p class="info-card_desc">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+            <div class="info-card">
+                <div class="info-card__icon"></div>
+                <h3 class="info-card__headline">Professional Designer</h3>
+                <p class="info-card_desc">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+            <div class="info-card">
+                <div class="info-card__icon"></div>
+                <h3 class="info-card__headline">The Best Services</h3>
+                <p class="info-card_desc">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+            </div>
+        </div>
+    </section>
+    <section class="block call-to-action">
+        <div class="wrapper">
+            <div class="call-to-action__content">
+                <h2 class="call-to-action__headline">let's discuss making your interior like a dream place!</h2>
+                <div class="call-to-action__elem">
+                    <p class="call-to-action__elem__desc">Contact us below to work together to build your amazing interior</p>
+                    <a href="" class="call-to-action__elem__btn btn btn--secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer wrapper">
+        <div class="footer__info">
+            <img src="/img/logo.svg" alt="Dananz" class="footer__info__logo logo">
+            <h2 class="footer__info__headline">One of the best furniture agency.</h2>
+        </div>
+        <div class="footer__contacts">
+            <form action="/" class="subscribe-form" method="post">
+                <label class="subscribe-form__label" for="email">Enter  your email to get the laterst news</label>
+                <input class="subscribe-form__input input" type="email" name="email" id="email" placeholder="Email Address">
+                <input class="subscribe-form__submit" type="image" src="/img/send.svg" alt="Subscribe">
+            </form>
+            <div class="social-media">
+                <p class="social-media__desc">Follow us On</p>
+                <div class="social-media__icons">
+                    <a class="social-media__link" href="">
+                        <div class="social-media__icon">
+                            <img src="/img/facebook.svg" alt="Facebook" class="social-media__img">
+                        </div>
+                    </a>
+                    <a class="social-media__link" href="">
+                        <div class="social-media__icon">
+                            <img src="/img/instagram.svg" alt="Instagram" class="social-media__img">
+                        </div>
+                    </a>
+                    <a class="social-media__link" href="">
+                        <div class="social-media__icon">
+                            <img src="/img/tiktok.svg" alt="TikTok" class="social-media__img">
+                        </div>
+                    </a>
+                    <a class="social-media__link" href="">
+                        <div class="social-media__icon">
+                            <img src="/img/youtube.svg" alt="Youtube" class="social-media__img">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/menu.js"></script>
+</body>
+</html>
