@@ -66,12 +66,12 @@ img {
     display: none;
     width: 48px;
     height: 48px;
-    background: url(/img/burger.svg);
+    background: url(/dananz/img/burger.svg);
     cursor: pointer;
 }
 
 .menu-btn--opened {
-    background: url(/img/burger--opened.svg);
+    background: url(/dananz/img/burger--opened.svg);
 }
 
 .btn:hover {
