@@ -572,7 +572,7 @@ header {
     padding-block: 128px;
     flex-direction: row;
     justify-content: space-around;
-    background: linear-gradient(0deg, rgba(51, 51, 51, 0.90) 0%, rgba(51, 51, 51, 0.90) 100%), url(/img/awards.png) var(--bg, #333) 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.90) 0%, rgba(51, 51, 51, 0.90) 100%), url(/pz18/img/awards.png) var(--bg, #333) 50% / cover no-repeat;
 }
 
 .rating__stars {
@@ -680,6 +680,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+}
+
+input[type='text'],
+textarea {
+  font-size: 16px;
 }
 
 @media (max-width: 1440px) {
